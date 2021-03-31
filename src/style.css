@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Gilroy-regular;
+  background-color: #000;
+  color: #fff;
+}
+
+
+@font-face {
+  font-family: Gilroy-regular;
+  src: url(./gilroy-font/Gilroy-Regular.ttf);
+}
+
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(./gilroy-font/Gilroy-Bold.ttf);
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 3px;
+}
+
+::selection {
+  background-color: #fff;
+  color: #000;
+}

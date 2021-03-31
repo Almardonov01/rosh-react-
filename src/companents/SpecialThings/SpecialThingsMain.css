@@ -1,0 +1,45 @@
+.SpecialThingsMain__container {
+  max-width: 1080px;
+  margin: 50px auto 0;
+}
+
+.SpecialThingsMain__container .SpecialThingsMain__container_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 45px 0;
+  border-bottom: 1px solid #c4c4c4;
+  gap: 40px;
+}
+
+.SpecialThingsMain__container .SpecialThingsCard__container {
+  width: 335px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
+.SpecialThingsMain__container .SpecialThingsCard__container img {
+  width: 75px;
+}
+
+.SpecialThingsMain__container .SpecialThingsCard__container .SpecialThingsCard__content {
+  gap: 10px;
+}
+
+.SpecialThingsMain__container .SpecialThingsCard__container .SpecialThingsCard__content_top {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+
+.SpecialThingsMain__container .SpecialThingsCard__container .SpecialThingsCard__content_bottom {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+}
+/*# sourceMappingURL=SpecialThingsMain.css.map */

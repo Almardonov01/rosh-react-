@@ -1,0 +1,66 @@
+.ScrollCar__Container {
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+.ScrollCar__Container .ScrollCar__Container__topContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ScrollCar__Container .ScrollCar__Container__topContent h4 {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+}
+
+.ScrollCar__Container .ScrollCar__Container__topContent .right__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.ScrollCar__Container .ScrollCar__Container__topContent .right__content h4 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+}
+
+.ScrollCar__Container .ScrollCar__Container__topContent .right__content p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.005em;
+}
+
+.ScrollCar__Container .CarBottomWay {
+  gap: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -20px;
+}
+
+.ScrollCar__Container .CarBottomWay div {
+  width: 40px;
+  height: 10px;
+  background-color: #fff;
+}
+/*# sourceMappingURL=ScrollCar.css.map */

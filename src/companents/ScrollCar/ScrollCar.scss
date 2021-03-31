@@ -1,0 +1,43 @@
+.ScrollCar__Container {
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 90px;
+    .ScrollCar__Container__topContent {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h4 {
+            font-weight: bold;
+            font-size: 17px;
+            line-height: 21px;
+            letter-spacing: 0.02em;
+        }
+        .right__content {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            h4 {
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 29px;
+                letter-spacing: 0.02em;
+            }
+            p {
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: 0.005em;
+            }
+        }
+    }
+    .CarBottomWay {
+        gap: 25px;
+        display: flex;
+        margin-top: -20px;
+        div {
+            width: 40px;
+            height: 10px;
+            background-color: #fff;
+        }
+    }
+}
