@@ -22,6 +22,14 @@
 
 .SpecialThingsMain__container .SpecialThingsCard__container img {
   width: 75px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.SpecialThingsMain__container .SpecialThingsCard__container img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .SpecialThingsMain__container .SpecialThingsCard__container .SpecialThingsCard__content {
