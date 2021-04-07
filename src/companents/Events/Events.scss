@@ -1,0 +1,13 @@
+.Events_container {
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 30px;
+    .Events_EventsCard {
+        display: flex;
+        gap: 30px;
+        margin-top: 30px;
+    }
+    .EventsCard_container {
+        width: 250px;
+    }
+}

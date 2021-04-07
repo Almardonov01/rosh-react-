@@ -1,0 +1,18 @@
+.Events_container {
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.Events_container .Events_EventsCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.Events_container .EventsCard_container {
+  width: 250px;
+}
+/*# sourceMappingURL=Events.css.map */
