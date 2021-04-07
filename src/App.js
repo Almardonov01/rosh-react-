@@ -1,23 +1,20 @@
 import React from "react";
 import { render } from "react-dom";
-import AnimationPizzaCont from "./companents/AnimationPizza/AnimationPizzaCont";
-import BannerImage from "./companents/BannerImage/BannerImage";
-import CenterInfo from "./companents/CenterInfo/CenterInfo";
-import Events from "./companents/Events/Events";
+import { Router } from "@reach/router";
+import Footer from "./companents/Footer/Footer";
+import MainPage from "./companents/MainPage/MainPage";
+import ManuPage from "./companents/MenuPage/ManuPage";
 import Navigation from "./companents/Navigation/Navigation";
-import ScrollCar from "./companents/ScrollCar/ScrollCar";
-import SpecialThingsMain from "./companents/SpecialThings/SpecialThingsMain";
 
 const App = () => {
   return (
-    <div className="main__container">
+    <div className="main_container">
       <Navigation />
-      <BannerImage />
-      <ScrollCar />
-      <SpecialThingsMain />
-      <AnimationPizzaCont />
-      <CenterInfo />
-      <Events />
+      <Router>
+        <MainPage path="/" />
+        <ManuPage path="Menu" />
+      </Router>
+      <Footer />
     </div>
   );
 };

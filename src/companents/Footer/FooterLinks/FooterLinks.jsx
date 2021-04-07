@@ -1,11 +1,12 @@
 import { Link } from '@reach/router';
 import React from 'react'
 
-const NavigationLinks = (props) => {
+const FooterLinks = (props) => {
     return (
-        <li>
+        <div className="FooterLinks_container">
             <Link to={props.links}><h4>{props.title}</h4></Link>
-        </li>
+        </div>
     )
 }
-export default NavigationLinks;
+
+export default FooterLinks;

@@ -1,4 +1,11 @@
-.navigationContainer {
+.Navigation_main_container {
+  position: fixed;
+  top: 0;
+  background-color: #000;
+  width: 100%;
+}
+
+.Navigation_main_container .navigationContainer {
   color: #fff;
   max-width: 1080px;
   height: 80px;
@@ -14,11 +21,11 @@
           justify-content: space-between;
 }
 
-.navigationContainer img {
+.Navigation_main_container .navigationContainer img {
   width: 45px;
 }
 
-.navigationContainer .NavigationLinksContainer {
+.Navigation_main_container .navigationContainer .NavigationLinksContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,21 +34,22 @@
           align-items: center;
 }
 
-.navigationContainer .NavigationLinksContainer h4 {
+.Navigation_main_container .navigationContainer .NavigationLinksContainer h4 {
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 26px;
 }
 
-.navigationContainer .NavigationLinksContainer .navigation__links {
+.Navigation_main_container .navigationContainer .NavigationLinksContainer .navigation__links {
   gap: 60px;
+  list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.navigationContainer .NavigationLinksContainer .navigation__number {
+.Navigation_main_container .navigationContainer .NavigationLinksContainer .navigation__number {
   font-weight: 600;
   font-size: 35px;
   line-height: 41px;
@@ -49,7 +57,7 @@
   margin-left: 30px;
 }
 
-.navigationContainer .NavigationLinksContainer .work__time h4 {
+.Navigation_main_container .navigationContainer .NavigationLinksContainer .work__time h4 {
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;

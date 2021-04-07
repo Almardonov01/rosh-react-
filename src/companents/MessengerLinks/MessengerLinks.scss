@@ -1,0 +1,29 @@
+.MessengerLinks_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    max-width: 1080px;
+    margin: 40px auto 0;
+    .MessengerLinksCard_container {
+        width: 200px;
+        .mainImg_container {
+            img {
+                margin-bottom: 30px;
+            }
+        }
+        .Links_container {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+            img {
+                width: 22px;
+            }
+            h4 {
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 100%;
+            }
+        }
+    }
+}

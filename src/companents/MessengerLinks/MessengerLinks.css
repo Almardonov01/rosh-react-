@@ -1,0 +1,40 @@
+.MessengerLinks_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 100px;
+  max-width: 1080px;
+  margin: 40px auto 0;
+}
+
+.MessengerLinks_container .MessengerLinksCard_container {
+  width: 200px;
+}
+
+.MessengerLinks_container .MessengerLinksCard_container .mainImg_container img {
+  margin-bottom: 30px;
+}
+
+.MessengerLinks_container .MessengerLinksCard_container .Links_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.MessengerLinks_container .MessengerLinksCard_container .Links_container img {
+  width: 22px;
+}
+
+.MessengerLinks_container .MessengerLinksCard_container .Links_container h4 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 100%;
+}
+/*# sourceMappingURL=MessengerLinks.css.map */

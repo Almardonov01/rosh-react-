@@ -1,0 +1,44 @@
+.CenterLinkInfo_container {
+  max-width: 1080px;
+  margin: 100px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.CenterLinkInfo_container .CenterInfo__container__border {
+  width: 50%;
+  height: 2px;
+  background-color: #c4c4c4;
+  margin-top: 12px;
+}
+
+.CenterLinkInfo_container .CenterLinkInfo_title {
+  width: 400px;
+  gap: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.CenterLinkInfo_container .CenterLinkInfo_title h3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+}
+
+.CenterLinkInfo_container .CenterLinkInfo_title p {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+}
+/*# sourceMappingURL=CenterLinkInfo.css.map */
